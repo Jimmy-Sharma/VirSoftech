@@ -1,0 +1,236 @@
+.Container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  gap: 200px;
+}
+
+/* h1 {
+  color: #ffffff;
+  background-color: #191b22;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #f9f4f4;
+  color: #191b22;
+  box-shadow: 4px 4px #ccc;
+  padding: 5px;
+} */
+
+.crypto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .crypto-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(56, 56, 57);
+  border: none;
+  color: white;
+} */
+h3{
+  font-weight: bold;
+}
+.price-crypto {
+  border-bottom: 2px solid #036151;
+}
+
+.crypto-quantity {
+  padding: 10px 2px;
+  border: 0px solid;
+  border-bottom: 2px solid gray;
+  font-size: 16px;
+  color: gray;
+  box-shadow: 4px 4px #ccc;
+  background-color: #e5ebeb;
+}
+
+.crypto-add-to-cart {
+  background-color: #191b22;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.cart-container {
+  margin-top: 20px;
+}
+h2{
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #191b22;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #f9f4f4;
+  color: #191b22;
+  box-shadow: 4px 4px #ccc;
+  padding: 10px;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(124, 137, 124);
+  color: white;
+  border-radius: 15px 5px;
+  background-color: #191b22;
+}
+
+button {
+  background-color: #ff6a00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px 15px;
+  font-weight: bold;
+}
+.err-msg{
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.banner-image {
+  --s: 50px;
+  --c: #191b22;
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 35.36% 35.36% at;
+  --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+  background: 
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+    radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+    radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+  background-attachment: fixed;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+
+h1{
+  font-family: 'Righteous', sans-serif;
+  color: rgba(255,255,255,0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.button-wrapper{
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;  
+  letter-spacing: 2px;  
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  transition: all .3s ease;
+  
+}
+
+.outline:hover{
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all .3s ease;  
+}
+
+.fill {
+  background: rgba(0, 212, 255, 0.9);
+  color: rgba(255,255,255,0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
+}
+
+.fill:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+  transition: all .3s ease;    
+}
+
+.cart-image-coin{
+  width: 30%;
+}
